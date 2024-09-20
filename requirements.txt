@@ -1,0 +1,9 @@
+jupyterlab 
+numpy 
+pandas
+pyarrow
+matplotlib 
+seaborn 
+scipy
+geopandas
+pathlib
