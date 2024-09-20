@@ -21,5 +21,5 @@ for filename in os.listdir(data_folder):
 # Concatenate all DataFrames into one large DataFrame
 combined_df = pd.concat(dataframes, ignore_index=True)
 
-# Save the combined DataFrame to a new CSV file
-combined_df.to_csv('combined.csv', index=False)
+# Save the combined DataFrame to a new CSV file in the data folder
+combined_df.to_csv('data/combined.csv', index=False)
