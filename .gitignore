@@ -2,6 +2,7 @@
 .venv/
 venv
 data/
+shp/
 combined.csv
 
 # Ignore Visual Studio Code settings in the .vscode folder
