@@ -13,3 +13,6 @@ combined.csv
 
 # ignore ALL .log files
 *.log
+
+# ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
