@@ -17,6 +17,7 @@ Project 6 is an opportunity to create your own custom exploratory data analysis 
 # Lessons learned
 - Don't try to upload large csv files to github.  It is a big hassle to try and fix this!
 - data format is really important.  It took a lot of detective work to join the fips codes between my two data sets.  One was an object, the other a float.  
+- In hindsight, I should have put the shp file and storm data into a databas.  Postgres accepts shp files.  I think that the intial cleaning would have been much easier with SQL first aaand then moving to the Jupyter notebook.  My computer did not like the big CSV file and all the goings on in the notebook.  
 
 
 # Data Sources
